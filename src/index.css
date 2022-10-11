@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* || UTILITY CLASSES */
+.errmsg {
+  color: firebrick;
+}
+
+/* || GENERAL STYLES */
+
+body {
+  font: 1.5rem 'Nunito', sans-serif;;
+  min-height: 100vh;
+  background-color: #F5F5F5;
+  color: #fff;
+}
+
+input, button {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+  display: grid;
+  padding: 1rem;
+}
+
+section {
+  width: min(100%, 500px);
+}
+
+a, a:visited {
+  color: whitesmoke;
+}
+
+a:hover, a:focus {
+  color: rgba(245, 245, 245, 0.9);
+}
+
+/* || LOGIN */
+
+.grids{
+  display: grid;
+  margin: 8rem 0;
+  justify-content: center;
+  background-color: #F5F5F5;
+  grid-template-columns: 30% 30%;
+  grid-template-rows: 710px 710px;
+
+}
+
+.gd1{
+  justify-content: center;
+  background-color: #F8FAFC;
+  padding: 2rem;
+}
+
+.gd2{
+  background-color: #0245F5;
+  padding-left: 70px;
+}
+
+.gd2 img{
+  margin-top: 150px;
+  width: 395px;
+  height: 400px;
+ }
+ .gd2 .VectorR{
+ 
+  left: 50%;
+  right: 17.43%;
+  top: -20%;
+  bottom: -9.33%;
+  margin-top: -158px;
+  width: -96px;
+  background: linear-gradient(204.68deg, #FFFFFF 2.5%, rgba(255, 255, 255, 0) 79.27%);
+  opacity: 0.25;
+  transform: rotate(-15.53deg);
+ }
+
+.gd1 .titre__connecte{
+  
+  width: 221px;
+  height: 44px;
+  left: 198px;
+  top: 326px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #0F172A;
+}
+.login{
+  position: absolute;
+  width: 335px;
+  height: 372px;
+  top: 326px;
+}
+.gd1 .mail{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 335px;
+  height: 72px;
+  left: 198px;
+  top: 410px;
+}
+
+.gd1 img{
+  
+  width: 166.4px;
+  height: 40px;
+  left: 40px;
+  top: 40px;
+}
+form label{
+  color: #475569;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+}
+form input{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 10px;
+
+  border: 1px solid #CBD5E1;
+  border-radius: 4px;
+}
+form .radio{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+
+width: 160px;
+height: 24px;
+left: 198px;
+top: 602px
+}
+.mail input{
+  width: 335px;
+  height: 48px;
+}
+.pass input{
+  width: 335px;
+  height: 48px;
+}
+.mail label{
+  width: 335px;
+  height: 16px;
+}
+
+.gd1 form button{
+  
+  width: 335px;
+  height: 48px;
+  left: 198px;
+  top: 650px;
+
+  /* Roomee/Blue */
+  color: #FFFFFF;
+  background: #0245F5;
+  border-radius: 4px;
+  border: none;
+}
+
+.login form {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+
+/* || PAGES */
+
+.public, .welcome, .users {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.public main {
+  flex-grow: 1;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  padding: 1rem;
+}
+
+.users ul {
+  list-style-type: none;
+}
